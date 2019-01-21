@@ -5,11 +5,11 @@ class ClickityClick extends React.Component {
     super();
  
     this.setState({
-    addressInfo: {
-    ...this.state.addressInfo,
-    city: 'New York City'
-  }
-});
+      addressInfo: {
+      ...this.state.addressInfo,
+      city: 'New York City'
+    }
+  });
  
   handleClick = () => {
   this.setState({
